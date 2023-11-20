@@ -226,7 +226,7 @@ header .container .form i {
 .landing {
   min-height: 100vh;
   background-color: #1f2021;
-  background-image: url("/images/blue_bird6.jpg");
+  background-image: url("../images/blue_bird6.jpg");
   background-size: cover;
   position: relative;
 }
@@ -396,7 +396,7 @@ header .container .form i {
   padding-bottom: var(--padding-section);
   position: relative;
   height: 600px;
-  background-image: url("/images/design3.jpg");
+  background-image: url("../images/design3.jpg");
   background-size: cover;
   overflow: hidden;
   display: flex;
@@ -669,7 +669,7 @@ header .container .form i {
 /* end about */
 /* start stats  */
 .stats {
-  background-image: url("/images/stats2.jpg");
+  background-image: url("../images/stats2.jpg");
   background-size: cover;
   padding-top: var(--padding-section);
   padding-bottom: var(--padding-section);
@@ -895,7 +895,7 @@ header .container .form i {
 /* start quotes */
 
 .quotes {
-  background-image: url("/images/quotes.jpg");
+  background-image: url("../images/quotes.jpg");
   background-size: cover;
   position: relative;
   padding-top: var(--padding-section);
@@ -1039,7 +1039,7 @@ header .container .form i {
 .subscribe {
   padding-top: var(--padding-section);
   padding-bottom: var(--padding-section);
-  background-image: url("/images/subscribe.jpg");
+  background-image: url("../images/subscribe.jpg");
   background-size: cover;
   position: relative;
   color: white;
@@ -1105,8 +1105,14 @@ header .container .form i {
     border-left: none;
     cursor: pointer;
 
+
 }
 
+@media (max-width: 747px) {
+  .subscribe .container form input[type="submit"] {
+    margin-left: -30px;
+}
+}
 .subscribe p {
   line-height: 2;
     margin-left: 25px;
@@ -1214,7 +1220,7 @@ header .container .form i {
 .footer {
   padding-top: calc(var(--padding-section) / 2 );
   padding-bottom: calc(var(--padding-section) / 2 );
-  background-image: url(/images/footer2.jpg);
+  background-image: url(../images/sea.jpg);
   background-size: cover;
   position: relative;
   text-align: center;
